@@ -85,9 +85,13 @@ export function BooksPage() {
 
       await fetchBooks(hasSearchFilters ? search : undefined);
       resetForm();
-    } catch (err) {
+    } catch (err: any) {
       console.error(err);
-      setError("Unable to save book. Check the details and try again.");
+      if (err.response?.data?.errors) {
+        setError(err.response.data.errors.join(", "));
+      } else {
+        setError("Unable to save book. Check the details and try again.");
+      }
     } finally {
       setSubmitting(false);
     }
@@ -115,9 +119,13 @@ export function BooksPage() {
       await client.delete(`/books/${id}`);
       setMessage("Book removed");
       await fetchBooks(hasSearchFilters ? search : undefined);
-    } catch (err) {
+    } catch (err: any) {
       console.error(err);
-      setError("Unable to delete book.");
+      if (err.response?.data?.errors) {
+        setError(err.response.data.errors.join(", "));
+      } else {
+        setError("Unable to delete book.");
+      }
     }
   };
 
