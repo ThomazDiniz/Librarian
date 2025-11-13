@@ -30,7 +30,7 @@ export function LoginPage() {
   return (
     <div className="auth-container">
       <div className="auth-card">
-        <h2>Welcome back</h2>
+        <h2>Librarian System</h2>
         <p className="auth-subtitle">Sign in with your library credentials.</p>
 
         <form onSubmit={handleSubmit} className="auth-form">
