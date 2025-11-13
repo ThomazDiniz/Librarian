@@ -15,6 +15,22 @@ The Library Management System is a complete solution for managing a community li
 - **Libby the Librarian**: Needs to manage the catalog, track borrowings, monitor overdue books, and maintain member records efficiently.
 - **Milo the Member**: Wants to browse books, borrow available copies, track due dates, and manage their reading history without friction.
 
+## Screenshots
+
+![Screenshot 1](docs/Screenshot_1.png)
+
+![Screenshot 2](docs/Screenshot_2.png)
+
+![Screenshot 3](docs/Screenshot_3.png)
+
+![Screenshot 4](docs/Screenshot_4.png)
+
+![Screenshot 5](docs/Screenshot_5.png)
+
+![Screenshot 6](docs/Screenshot_6.png)
+
+![Screenshot 7](docs/Screenshot_7.png)
+
 ## Development Approach
 
 ### Initial Planning
