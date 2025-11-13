@@ -135,14 +135,4 @@ npm run build    # compile production build (also used in CI)
 
 ---
 
-## Next Steps / Possible Enhancements
-
-- Add pagination & sorting on book and borrowing listings.
-- Introduce optimistic UI updates and toast notifications.
-- Extend API docs (e.g., with RSwag/OpenAPI) and add contract tests.
-- Deploy Compose stack to the cloud using managed Postgres.
-
----
-
-Happy hacking!📚
 
