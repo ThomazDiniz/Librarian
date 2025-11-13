@@ -14,7 +14,7 @@ export function AppLayout() {
     <div className="app-layout">
       <header className="app-header">
         <div>
-          <h1>Librarian</h1>
+          <h1>Library Management System</h1>
           {user && (
             <p className="user-meta">
               Signed in as <strong>{user.name}</strong> ({user.role})
